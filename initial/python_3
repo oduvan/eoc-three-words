@@ -1,16 +1,16 @@
-def checkio(a):
+def three_words(a):
     # your code here
     return None
 
 
 if __name__ == '__main__':
     print("Example:")
-    print(checkio('Hello World hello'))
+    print(three_words('Hello World hello'))
 
     # These "asserts" are used for self-checking and not for an auto-testing
-    assert checkio('Hello World hello') == True
-    assert checkio('He is 123 man') == False
-    assert checkio('1 2 3 4') == False
-    assert checkio('bla bla bla bla') == True
-    assert checkio('Hi') == False
+    assert three_words('Hello World hello') == True
+    assert three_words('He is 123 man') == False
+    assert three_words('1 2 3 4') == False
+    assert three_words('bla bla bla bla') == True
+    assert three_words('Hi') == False
     print("Coding complete? Click 'Check' to earn cool rewards!")

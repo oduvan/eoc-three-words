@@ -6,7 +6,7 @@ requirejs(['ext_editor_io', 'jquery_190'],
         var io = new extIO({
             functions: {
                 js: 'threeWords',
-                python: 'checkio'
+                python: 'three_words'
             },
             animation: function($expl, data){
                 var checkioInput = data.in;
