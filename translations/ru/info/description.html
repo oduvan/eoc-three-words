@@ -1,0 +1,53 @@
+<img class="for_info_only" title="train" src="{{MEDIA}}train.png" alt="train" />
+
+<p>
+    Давайте научим наших роботов отличать слова от чисел.
+</p>
+
+<p>
+    Дана строка со словами и числами, разделенными пробелами (один пробел между словами и/или числами).
+    Слова состоят только из букв.
+    Вам нужно проверить есть ли в исходной строке три слова <strong>подряд</strong>.
+    Для примера, в строке "start 5 <strong>one two three</strong> 7 end" есть три слова подряд.
+</p>
+
+<p>
+    <strong>Входные данные: </strong> Строка со словами (str).
+</p>
+
+<p>
+    <strong>Выходные данные: </strong> Ответ как логическое выражение (bool), True или False.
+</p>
+
+
+
+<div class="for_info_only">
+    <p>
+        <strong>Примеры:</strong>
+    </p>
+    <pre class="brush: python">{% if interpreter.slug == "js-node" %}
+threeWords("Hello World hello") == True
+threeWords("He is 123 man") == False
+threeWords("1 2 3 4") == False
+threeWords("bla bla bla bla") == True
+threeWords("Hi") == False
+{% else %}
+checkio("Hello World hello") == True
+checkio("He is 123 man") == False
+checkio("1 2 3 4") == False
+checkio("bla bla bla bla") == True
+checkio("Hi") == False
+{% endif %}</pre>
+</div>
+
+<p class="for_info_only">
+    <strong>Зачем это нужно: </strong>
+    Эта задача подскажет вам как работать со строками и покажет некоторые полезные функции.
+</p>
+
+<p>
+    <strong>Предусловия:</strong>
+    Исходная строка содержит только слова и/или числа. Смешанных слов нет (перемешанные цифры и буквы).<br>
+    0 &lt; len(words) &lt; 100
+</p>
+
